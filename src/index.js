@@ -1,7 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { BrowserRouter as Router} from "react-router-dom";
+
+import Routes from 'routes';
+
+const App = () => {
+    return (
+        <div>
+            <h3>Welcome</h3>
+            <Router>
+                <Routes />
+            </Router>
+        </div>
+    )
+};
 
 ReactDOM.render(
   <React.StrictMode>
