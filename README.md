@@ -2,6 +2,8 @@
 
 > Create clone Medium.com using React.js (hooks)
 
+### [Demo](http://react-medium-clone-ab.surge.sh)
+
 In the project directory, you can run:
 
 ### `npm start`
